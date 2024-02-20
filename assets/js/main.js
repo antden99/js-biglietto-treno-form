@@ -42,9 +42,11 @@ document.querySelector("button").addEventListener("click", function () {
     } else {
         console.log(price);
         final = price.toFixed(2);
-        document.writeln(`Il prezzo del biglietto  è di €${final}`);
+        
     }
-    
+    // stampo nel documento il prezzo finale del biglietto
+    const result = document.querySelector(".results").innerHTML= `il prezzo del biglietto è di €${final}`;
+    console.log(result);
 })
 
 
