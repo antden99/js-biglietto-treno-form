@@ -1,21 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Js-Biglietto-Treno-Form-1</title>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
+
 <body>
-    <input type="text" value="" id="name" placeholder="Nome e Cognome">
-    <input type="text" value="" id="age" placeholder="Età passeggero">
-    <input type="text" value="" id="distance" placeholder="Km da percorrere">
+    <div class="container">
+        <div>
+            <h1>Calcola il prezzo del tuo biglietto</h1>
+        </div>
+        <div>
+            <form action="#" method="get">
+                <label for="name"></label>
+                <input type="text" value="" id="name" placeholder="Nome e Cognome">
+                <input type="text" value="" id="age" placeholder="Età passeggero">
+                <input type="text" value="" id="distance" placeholder="Km da percorrere">
+            </form>
 
-    <button>
-        Click me
-    </button>
 
-    <div class="results"></div>
+        </div>
+        <div>
+            <button>
+                Genera
+            </button>
+            <button>
+                Annulla
+            </button>
+        </div>
+
+        <div class="ticket">
+            <h1 class="your_ticket"></h1>
+            <div class="informations">
+                <div class="name_ticket">
+
+                </div>
+                <div class="discount">
+
+                </div>
+                <div class="carriage_number">
+
+                </div>
+                <div class="cp_code">
+
+                </div>
+                <div class="ticket_price">
+
+                </div>
+            </div>
+        </div>
+        <div class="results">
+
+        </div>
+    </div>
+
     <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
